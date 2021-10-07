@@ -1,12 +1,17 @@
 ## Authors
 - [Raka Gemi](https://github.com/rakagemi)
 
-## Environment
-pip install flask
-pip install tensorflow
-pip install nltk
-pip install gunicorn
-pip install gevent
+*Installing dependencies**
 
-## Run Local Server
+Install all dependencies that are required for the project by running:
+
+```bash
+pip install -r requirements.txt
+
+## Run Local Server / Testing the Code
+
+To run all the tests please execute the following command from the project root folder:
+
+```bash
 python app.py
+```
